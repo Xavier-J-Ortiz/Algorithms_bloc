@@ -1,0 +1,34 @@
+1) Calculating a tip -
+
+* Look at the receipt
+* Scan for the Total before tax.
+* look at the whole dollar amount
+* divide the whole dollar amount by 10
+* look at the whole number
+* multiply by 2
+
+2) Determine what to wear - 
+
+* look outside
+* check weather
+* if it's hot, wear a short sleeve shirt, and slacks
+* if it's cold wear a long sleeve shirt, sweater, jeans, and thick socks.
+* if there's rain or snow, wear a hat and boots.
+* if there's no rain or snow, wear sneakers.
+
+3) Getting to work - 
+
+*wake up
+* check time and date
+* if Saturday or Sunday, go back to sleep.
+* if work week day, jump out of bed.
+* boil water
+* grind coffee beans
+* pour ground coffee and water in french press
+* wait 4 minutes, serve.
+* take a shower 
+* get dressed
+* check the time
+* if before 8am grab helmet, ride bike to work
+* if after 8am, pick up the pace, take the subway to work.
+
