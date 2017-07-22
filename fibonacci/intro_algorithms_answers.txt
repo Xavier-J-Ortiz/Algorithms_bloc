@@ -1,34 +1,42 @@
 1) Calculating a tip -
-
-* Look at the receipt
-* Scan for the Total before tax.
-* look at the whole dollar amount
-* divide the whole dollar amount by 10
-* look at the whole number
-* multiply by 2
+def tip(cost)
+  temp = cost
+  temp = 2 * temp / 10
+  return temp
+end
 
 2) Determine what to wear - 
 
-* look outside
-* check weather
-* if it's hot, wear a short sleeve shirt, and slacks
-* if it's cold wear a long sleeve shirt, sweater, jeans, and thick socks.
-* if there's rain or snow, wear a hat and boots.
-* if there's no rain or snow, wear sneakers.
+def dress(temperature, precipitation)
+  if weather == cold
+    shirt = long_sleeve_shirt
+    pants = jeans
+    sweater = true
+  else
+    shirt = short_sleeve_shirt
+    pants = slacks
+    sweater = false
+  end
+  if precipitation == true
+    boots = true
+    hat = true
+  else
+    boots = false
+    hat = false
+  end
+  return [shirt, pants, sweater, boots, hat]
+end
 
 3) Getting to work - 
 
-*wake up
-* check time and date
-* if Saturday or Sunday, go back to sleep.
-* if work week day, jump out of bed.
-* boil water
-* grind coffee beans
-* pour ground coffee and water in french press
-* wait 4 minutes, serve.
-* take a shower 
-* get dressed
-* check the time
-* if before 8am grab helmet, ride bike to work
-* if after 8am, pick up the pace, take the subway to work.
-
+def work_transportation(is_weekday, time)
+  if is_weekday and time < 0800
+    eat_breakfast
+    wear_helmet
+    return bike
+  elsif is_weekday and time >= 0800
+    drink_coffee
+    grab_metrocard
+    return subway
+  end
+end
