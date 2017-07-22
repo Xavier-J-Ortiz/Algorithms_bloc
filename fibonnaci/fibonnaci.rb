@@ -8,7 +8,7 @@ def fib n
   end
   return fib_1
 end
-
+=begin
 puts fib(0)
 puts fib(1)
 puts fib(2)
@@ -19,3 +19,4 @@ puts fib(6)
 puts fib(7)
 puts fib(8)
 puts fib(9)
+=end
