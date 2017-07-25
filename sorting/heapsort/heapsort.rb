@@ -80,9 +80,3 @@ def swap_nodes(array, current_location, next_location)
   array[next_location] = array[current_location]
   array[current_location] = temp 
 end
-
-=begin
-puts sort_heap([1, 2, 3, 4, 5]).to_s
-puts sort_heap([-5, 5, 23, 42, 9, 4, 3, 200, 2, 1, -11]).to_s
-puts sort_heap([12, 11, 13, 5, 6, 7]).to_s
-=end

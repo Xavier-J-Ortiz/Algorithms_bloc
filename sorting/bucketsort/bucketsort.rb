@@ -28,10 +28,3 @@ def find_and_organize(buckets)
   end
   return answer
 end
-
-=begin
-puts sort_bucket([1, 2, 3, 4, 5]).to_s
-puts sort_bucket([12, 11, 13, 5, 6, 7]).to_s
-puts sort_bucket([-5, 5, 23, 24, 9, 4, 3, 20, 2, 1, -11]).to_s
-=end
-

@@ -7,7 +7,6 @@ def quicksort(array)
 
   right_array = []
   left_array = array
-
   divide_array(left_array, right_array, pivot)
 
   if left_array.length + right_array.length <= 1
@@ -26,7 +25,3 @@ def divide_array(left_array, right_array, pivot)
     end
   end
 end
-=begin
-puts quicksort([5, 4, 3, 2, 1]).to_s
-puts quicksort([-5, 5, 23, 42, 9, 4, 3, 200, 2, 1, -11]).to_s
-=end
