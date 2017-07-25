@@ -14,7 +14,3 @@ def binary_search_iterative(array, value)
   end
   return "nil"
 end
-=begin
-puts binary_search_iterative([2, 4, 6, 8, 10 , 221, 483], 10)
-puts binary_search_iterative([2, 4, 6, 8, 10 , 221, 483], 1)
-=end
