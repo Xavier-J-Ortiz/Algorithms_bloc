@@ -1,8 +1,8 @@
 1) Calculating a tip -
 def tip(cost)
-  temp = cost
-  temp = 2 * temp / 10
-  return temp
+  total_tip = cost
+  total_tip = 2 * total_tip / 10
+  return total_tip
 end
 
 2) Determine what to wear - 
