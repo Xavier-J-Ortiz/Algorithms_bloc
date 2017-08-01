@@ -32,9 +32,9 @@ def filter_down(array, current_location)
 
   while at_least_one_child_greater_than_parent
     if both_children_greater_than_parent
-      swap_right_or_left_child_with_parent(right_child_greater_than_left_child, array, current_location, child_location_right, child_location_left)
+      swap_child_with_parent(right_child_greater_than_left_child, array, current_location, child_location_right, child_location_left)
     else
-      swap_right_or_left_child_with_parent(right_child_greater_than_parent, array, current_location, child_location_right, child_location_left)
+      swap_child_with_parent(right_child_greater_than_parent, array, current_location, child_location_right, child_location_left)
     end
     child_location_left,
       child_location_right,
@@ -46,7 +46,7 @@ def filter_down(array, current_location)
   return array
 end
 
-def swap_right_or_left_child_with_parent(go_right, array, current_location, child_location_right, child_location_left)
+def swap_child_with_parent(go_right, array, current_location, child_location_right, child_location_left)
   if go_right
     swap_and_update_current_location(array, current_location, child_location_right)
   else
